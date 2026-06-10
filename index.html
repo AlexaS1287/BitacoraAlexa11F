@@ -46,8 +46,30 @@
             border-top: 1px rgb(250, 175, 233);
             background-color: rgb(231, 180, 251);
         }
-        </style>  
-        
+</style> 
+    <style> background-color: cornflowerblue;
+}
+/* Estilo base para la imagen del footer */
+footer img(
+transition: transform 0.3s ease; /* Hace que el zoom sea fluido */ 
+cursor: pointer; /* Cambia el cursor a una mano para indicar que es interactivo */
+}  
+    /* Efecto cuando el mouse para por encima (:hover) */
+footer img:hover {
+transform: scale(1,2); /* Aumenta el tamaño un 20% */
+.semana {
+background-color: #ffffff; /* Fondo blanco para que resalte */ 
+border-radius: 15px; /* Bordes redondeados para elegancia */
+padding: 20px; /* Espacio interno para que el texto no toque los bordes */
+margin: 20px 0; /* Espacio entre una tarjeta y otra */
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */ 
+border-left: 5px solid #bc13fe; /* Una línea decorativa morada al lado izquierdo */ transition: 0.3s; /* Para que si añades efectos, sean fluidos */
+text-align: left; /* Alineamos el texto a la izquierda para mejor lectura */
+.semana: hover {
+    box-shadow: 0 8px 25px rgba (188, 19, 254, 0.2); /*La sombra brilla morado al pasar por el mouse */
+    transforms: translateY(-5px); /*La tarjeta "flota" un poquito hacia arriba*//style>
+    }
+</style>
 </head>
 <body>
     <header>
@@ -57,6 +79,24 @@
         <h4>Contenido de la página WEB</h4>
         <div class="semana">
             <h2>Semana 1</h2>
+            <p>En esta semana aprendimos las etiquetas de HTML y cómo estructurar un documento correctamente./p>
+
+            <iframe src="recursos/pdf/bitacora1.pdf"
+                width="100%"
+                heihgt="500px"
+                style="border: 2px solid #bc13fe; border-radius: 10px; margin-top: 15px;">
+            </iframe>
+
+            </div>
+        <div class="semana">
+        <h2>Semana 2</h2>           
+            <p>Comenzamos con circuito para encender luces led.</p>
+            
+            <video controls  width="100%" style="max-width: 500px; border-radius: 10px; margin-top: 15px;">
+            <source src="recursos/video/video circuito alexa 11f.mp4" type="video/mp4">
+        </video>
+        </div>
+        
     </main>
     <footer>
         <span>@ale.cerecita</span>
